@@ -113,7 +113,7 @@ hr{
 }
 
 .ontext {
-
+  text-shadow: 10px 10px 10px black;
   z-index: 9999999 !important;
 }
 .footerindex{
@@ -143,6 +143,12 @@ hr{
   height: 25px;
 }
 
+.menu-table {
+    br {
+      display:none;
+    }
+  }
+
 @media (max-width: 768px) {
     body {
         background-color: black !important;
@@ -162,6 +168,11 @@ hr{
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
+    }
+    .menu-table {
+      br {
+        display:flex;  
+      }
     }
 }
 
